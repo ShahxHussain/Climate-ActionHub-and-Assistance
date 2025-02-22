@@ -1,0 +1,138 @@
+/* Full-screen video background */
+.landing-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Background Video */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Enlarged Overlay with Softer Opacity */
+.overlay {
+    position: relative;
+    z-index: 2;
+    background: rgba(34, 49, 63, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    max-width: 90%;
+}
+
+/* Bigger, Bolder, and Green-themed Heading */
+.main-heading {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: #28A745;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Larger, Stylish Slogan */
+.slogan-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F4D03F;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* CTA Wrapper */
+.cta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Styled Span Element */
+.climate-span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2ECC71;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* CTA Button with Earthy Colors */
+.cta-button {
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #2ECC71, #27AE60);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(39, 174, 96, 0.4);
+    outline: none;
+}
+
+/* Button Hover Effect */
+.cta-button:hover {
+    background: linear-gradient(to right, #27AE60, #2ECC71);
+    box-shadow: 0 6px 15px rgba(39, 174, 96, 0.6);
+    transform: scale(1.05);
+}
+
+/* Button Active (Click) Effect */
+.cta-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 3px 8px rgba(39, 174, 96, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 3rem;
+    }
+    .slogan-text {
+        font-size: 1.6rem;
+    }
+    .climate-span {
+        font-size: 0.9rem;
+    }
+    .cta-button {
+        font-size: 1.1rem;
+        padding: 14px 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay {
+        max-width: 95%;
+    }
+    .main-heading {
+        font-size: 2.5rem;
+    }
+    .slogan-text {
+        font-size: 1.2rem;
+    }
+    .climate-span {
+        font-size: 0.8rem;
+    }
+    .cta-button {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+}

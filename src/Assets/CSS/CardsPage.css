@@ -1,0 +1,124 @@
+/* Container for Cards Page */
+.cards-page-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 20px 20px; /* Adjusted padding to give space for heading */
+    background: url('../Images/display.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Dark Overlay on Background */
+.cards-page-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Beautiful H1 Heading */
+.cards-page-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.4);
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Elegant Underline Effect */
+.cards-page-container h1::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Card Container - Flexbox for Row Layout */
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* Custom Card Styling */
+.custom-card {
+    width: 18rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    animation: flipIn 1s ease-out;
+}
+
+/* Flip Animation on Page Load */
+@keyframes flipIn {
+    from {
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0);
+        opacity: 1;
+    }
+}
+
+/* Card Header with Underline */
+.custom-card .card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* Underline Effect */
+.custom-card .card-header::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 4px;
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    margin: 5px auto 0;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Hover Effect for Underline */
+.custom-card:hover .card-header::after {
+    width: 80%;
+}
+
+/* Hover Effect for Cards */
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards-page-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
