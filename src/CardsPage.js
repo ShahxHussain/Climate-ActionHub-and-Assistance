@@ -5,7 +5,7 @@ import climateRef from './Assets/Images/climaterefugee.png';
 import landingpage from './Assets/Images/landingpage.png';
 import climateactionhub from './Assets/Images/climateactionhub.png';
 import coralref from './Assets/Images/coralreef.png';
-
+import { Link } from 'react-router-dom';
 export function CardsPage() {
     return (
         <div className="cards-page-container">
@@ -55,8 +55,10 @@ export function CardsPage() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
+                
 
                 {/* Climate Assistant Card */}
+                <Link to="/climateassistant"  style={{textDecoration:'none'}}>
                 <Card border="warning" className="custom-card">
                     <Card.Header>Climate Assistant</Card.Header>
                     <Card.Body>
@@ -66,7 +68,8 @@ export function CardsPage() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-
+                </Link>
+ 
             </div>
         </div>
     );

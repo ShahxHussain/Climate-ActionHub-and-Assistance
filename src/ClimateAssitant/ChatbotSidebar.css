@@ -1,0 +1,26 @@
+.sidebar {
+    width: 16.666%; /* col-md-2 */
+    height: 100vh;
+    background-color: #2e7d32; /* Eco-friendly green */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .vertical-text {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  .leaf-icon {
+    font-size: 30px;
+    color: #ffd700; /* Gold color */
+    margin-top: 20px;
+  }
+  
