@@ -35,6 +35,7 @@ export function CardsPage() {
                 </Card>
 
                 {/* Climate Refugee Card */}
+                <Link to='/climaterefuge'>
                 <Card border="warning" className="custom-card">
                     <Card.Header>Climate Refugee</Card.Header>
                     <Card.Body>
@@ -44,6 +45,7 @@ export function CardsPage() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
+                </Link>
 
                 {/* Coral Reef Protection Card */}
                 <Card border="warning" className="custom-card">
