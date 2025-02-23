@@ -22,41 +22,7 @@ export function Landuse() {
                 </p>
             </div>
 
-            <div className="landuse-section">
-                <h2>Foodsharing.de: Fighting Food Waste</h2>
-                <p>
-                    Foodsharing.de is a free web platform dedicated to combating food waste by facilitating the sharing of surplus food 
-                    among individuals and organizations in Germany, Austria, and Switzerland.
-                </p>
-                <p>
-                    The platform connects over 605,000 registered users, including more than 167,000 voluntary "Foodsavers," who collect 
-                    and distribute excess food from retailers and producers.
-                </p>
-            </div>
 
-            <div className="landuse-section">
-                <h2>FHI 360's CHAI Project: Climate Change Adaptation in Uganda</h2>
-                <p>
-                    FHI 360 has implemented the Climate Change Adaptation and ICT (CHAI) project in Uganda, utilizing information and 
-                    communication technology tools to support farmers affected by climate change.
-                </p>
-                <p>
-                    By providing timely and relevant insights, the CHAI project enables farmers to minimize crop loss and damage, 
-                    enhancing their resilience to the impacts of global warming.
-                </p>
-            </div>
-
-            <div className="landuse-section">
-                <h2>ICTs for Small-Scale Farmers</h2>
-                <p>
-                    ICTs for Small-Scale Farmers is an initiative developed by the International Center for Tropical Agriculture (CIAT) 
-                    in partnership with the CGIAR Research Program on Climate Change, Agriculture, and Food Security (CCAFS).
-                </p>
-                <p>
-                    This project aims to assist smallholder farmers in Colombia and Honduras in adapting to climate variability by providing 
-                    them with timely and relevant information.
-                </p>
-            </div>
 
             <div className="landuse-section">
                 <h2>GainForest: AI for Forest Conservation</h2>
@@ -65,6 +31,14 @@ export function Landuse() {
                     By leveraging a combination of satellite imagery, drone data, and machine learning algorithms, GainForest monitors 
                     forest changes in real-time, enabling the detection of illegal logging activities and the assessment of forest health.
                 </p>
+                <a
+          href="https://gainforest.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="landuse-section">
@@ -74,6 +48,14 @@ export function Landuse() {
                     By deploying solar-powered devices called "Guardians" high in the forest canopy, RFCx continuously captures 
                     ambient sounds of the rainforest.
                 </p>
+                <a
+          href="https://rfcx.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="landuse-section">
@@ -83,6 +65,14 @@ export function Landuse() {
                     Traditionally, timberland investments have been limited to large institutional investors due to high capital 
                     requirements and illiquidity.
                 </p>
+                <a
+          href="https://www.ekofolio.com/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="landuse-section">
@@ -91,6 +81,14 @@ export function Landuse() {
                     Planet Inc. utilizes its extensive satellite constellation and advanced land cover classification algorithms to monitor 
                     and detect deforestation activities globally.
                 </p>
+                <a
+          href="https://medium.com/planet-stories/a-turning-point-in-tropical-forest-monitoring-f7b693f69417"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="landuse-section">
@@ -100,6 +98,14 @@ export function Landuse() {
                     By employing a patented technology, the organization accelerates soil creation in dry lands from the traditional 
                     10-15 years to just one day.
                 </p>
+                <a
+          href="https://www.godaddy.com/forsale/afforest4future.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="landuse-section">
@@ -120,6 +126,14 @@ export function Landuse() {
                     The initiative aims to enhance the survival rate of mangrove seedlings, contributing to coastal protection and carbon 
                     emission absorption.
                 </p>
+                <a
+          href="https://unfccc.int/climate-action/momentum-for-change/ict-solutions/connected-mangroves"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );

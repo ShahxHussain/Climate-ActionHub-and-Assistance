@@ -5,7 +5,7 @@ export function Dataandmetrics() {
     return (
         <div className="data-metrics-container">
             <img src={metrics} alt="Data Metrics" className="data-metrics-image" />
-            
+            <br/><br/>
             <div className="data-section">
                 <h1 className="data-title">Project Drawdown</h1>
                 <p className="data-text">
@@ -28,6 +28,14 @@ export function Dataandmetrics() {
                     Project Drawdown underscores that its proposed solutions are already available, economically viable, and can be 
                     implemented immediately to mitigate climate change.
                 </p>
+                <a
+          href="https://drawdown.org/solutions"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="data-section">
@@ -55,6 +63,14 @@ export function Dataandmetrics() {
                     Developed by the Global Carbon Project, the platform serves as a valuable resource for researchers, policymakers, 
                     and the public, providing accessible and up-to-date carbon data to support climate action.
                 </p>
+                <a
+          href="https://globalcarbonatlas.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="data-section">
@@ -79,6 +95,14 @@ export function Dataandmetrics() {
                     Through these initiatives, the Lab strives to empower stakeholders with the information necessary to mitigate and adapt 
                     to the evolving challenges posed by climate change.
                 </p>
+                <a
+          href="https://impactlab.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="data-section">
@@ -110,6 +134,14 @@ export function Dataandmetrics() {
                     are not only effective in reducing emissions but also contribute positively to sustainable development, delivering real 
                     benefits to people and the planet.
                 </p>
+                <a
+          href="https://www.goldstandard.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );

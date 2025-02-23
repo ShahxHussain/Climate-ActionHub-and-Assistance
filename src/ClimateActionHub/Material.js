@@ -36,6 +36,14 @@ export function Material() {
                     Fairphone is leading the shift towards more sustainable consumer electronics, proving that technology can be both innovative and environmentally responsible 
                     in the fight against climate change.
                 </p>
+                <a
+          href="https://www.fairphone.com/en/about/about-us/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="material-section">
@@ -49,6 +57,14 @@ export function Material() {
                     By integrating environmental responsibility into everyday financial transactions, the Green Credit Card system fosters a culture of sustainability, 
                     demonstrating how financial tools can drive meaningful action in combating climate change.
                 </p>
+                <a
+          href="https://unfccc.int/climate-action/momentum-for-change/ict-solutions/green-credit-card-i-republic-of-korea"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );

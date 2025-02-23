@@ -4,7 +4,7 @@ export function Energy() {
     return (
         <div className="energy-container">
             <img src={energy} alt="Energy Impact" className="energy-image" />
-            
+            <br/><br/>
             <div className="energy-section">
                 <h1>Energy and Climate Impact</h1>
                 <p>
@@ -49,6 +49,14 @@ export function Energy() {
                     enabling extended business hours, improved productivity, and enhanced educational opportunities, all while 
                     contributing to environmental sustainability through the reduction of carbon emissions.
                 </p>
+                <a
+          href="https://www.azuri-group.com/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="energy-section">
@@ -71,6 +79,14 @@ export function Energy() {
                     increased daily per capita spending, primarily on food. Additionally, the initiative has led to improved 
                     nutrition and overall well-being in participating communities.
                 </p>
+                <a
+          href="https://fsi.stanford.edu/research/solar_market_gardens_as_a_tool_for_rural_development"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="energy-section">
@@ -87,6 +103,14 @@ export function Energy() {
                     By integrating solar home systems with centralized mini-grids, SOLshare enhances energy distribution efficiency, 
                     reduces costs, and promotes renewable energy adoption in off-grid areas.
                 </p>
+                <a
+          href="https://solshare.com/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="energy-section">
@@ -104,6 +128,14 @@ export function Energy() {
                     of potential solar customers to make informed decisions about transitioning to renewable energy sources, 
                     promoting both economic savings and environmental sustainability.
                 </p>
+                <a
+          href="https://sunroof.withgoogle.com/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );

@@ -7,6 +7,8 @@ export function Buildingandcities() {
             <img src={building} alt="Building and Cities" className="building-image" />
             <br/><br/><br/>
             <div className="building-content">
+              
+                <div className="building-section">
                 <h1>Buildings and Cities: Energy Consumption and Sustainability</h1>
                 <p>
                     Dense urban settlements significantly contribute to global energy consumption, particularly for heating and cooling, 
@@ -14,7 +16,6 @@ export function Buildingandcities() {
                     address operational inefficiencies in buildings and urban living.
                 </p>
 
-                <div className="building-section">
                     <h2>Key Strategies for Sustainable Cities</h2>
                     <ul className="building-list">
                         <li>
@@ -62,6 +63,14 @@ export function Buildingandcities() {
                     To ensure energy availability during overcast periods, a power-to-gas system converts excess solar energy into hydrogen, which 
                     is later used by a fuel cell to generate electricity, ensuring a consistent and sustainable energy supply.
                 </p>
+                <a
+          href="https://houseofswitzerland.org/headlines/house-provides-its-own-energy"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="building-section">
@@ -85,6 +94,14 @@ export function Buildingandcities() {
                 <p>
                     Through collaborations with academia, industry, and government agencies, FCL translates its research into actionable strategies, helping shape the cities of the future.
                 </p>
+                <a
+          href="https://fcl.ethz.ch/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );
