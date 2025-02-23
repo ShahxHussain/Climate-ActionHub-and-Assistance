@@ -18,27 +18,15 @@ export function CardsPage() {
 
       <h1>Who Are You.....?</h1>
       <div className="cards-container">
-        {/* Landing Page Card */}
-        <Link to="/aboutus" style={{ textDecoration: "none" }}>
-          <Card border="success" className="custom-card" style={{ height: "53vh",width:'17rem' }}>
-            <Card.Header>About Us</Card.Header>
-            <Card.Body>
-              <img src={landingpage} alt="Landing Page" className="card-img" />
-              <Card.Text className="card-text">
-                Join the movement for a sustainable future. Explore solutions, connect, and take action for our planet. 🌍💚
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Link>
 
         {/* Climate Action Hub Center Card */}
         <Link to="/dashboard" style={{ textDecoration: "none" }}>
-          <Card border="danger" className="custom-card" style={{ height: "53vh" }}>
-            <Card.Header>Climate Action Hub Center</Card.Header>
+          <Card border="danger" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
+            <Card.Header>Climate Change Action Hub</Card.Header>
             <Card.Body>
               <img src={climateactionhub} alt="Climate Action Hub" className="card-img" />
               <Card.Text className="card-text">
-                A collaborative space to connect, share knowledge, and take action for a sustainable future. 🌍
+              Empowering communities with knowledge, activism, and tools to drive real climate action.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -46,12 +34,12 @@ export function CardsPage() {
 
         {/* Climate Refugee Card */}
         <Link to="/climaterefuge" style={{ textDecoration: "none" }}>
-          <Card border="warning" className="custom-card" style={{ height: "53vh" }}>
-            <Card.Header>Climate Refugee</Card.Header>
+          <Card border="warning" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
+            <Card.Header>Tracking & Aiding Climate Refugees</Card.Header>
             <Card.Body>
               <img src={climateRef} alt="Climate Refugee" className="card-img" />
               <Card.Text className="card-text">
-                🌍 Connect, 🤝 share experiences, and 💡 access support in a community built for those impacted by climate change. 💚🔥
+              Bridging technology and humanity to connect displaced individuals with resources, education, and aid.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -59,10 +47,10 @@ export function CardsPage() {
 
         {/* Coral Reef Protection Card */}
         <Link to="/coralreedandaquabodies" style={{ textDecoration: "none" }}>
-          <Card border="warning" className="custom-card" style={{ height: "53vh" }}>
-            <Card.Header>Coral Reef And Aqua Bodies Protection</Card.Header>
+          <Card border="warning" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
+            <Card.Header>Deep-Sea Plastic Detection & AquaLIfe Protection</Card.Header>
             <Card.Body>
-              <img src={coralref} alt="Coral Reef Protection" className="card-img" style={{ height: "25vh" }} />
+              <img src={coralref} alt="Coral Reef Protection" className="card-img" style={{ height: "18vh" }} />
               <Card.Text className="card-text">
                 Safeguarding marine ecosystems through conservation, restoration, and sustainable practices to protect biodiversity and fight climate change. 🌊🐠
               </Card.Text>
@@ -72,12 +60,25 @@ export function CardsPage() {
 
         {/* Climate Assistant Card */}
         <Link to="/climateassistant" style={{ textDecoration: "none" }}>
-          <Card border="warning" className="custom-card" style={{ height: "53vh" }}>
+          <Card border="warning" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
             <Card.Header>Climate Assistant</Card.Header>
             <Card.Body>
               <img src={chatbot} alt="Climate Assistant" className="card-img" />
               <Card.Text className="card-text">
-                Get ⚡ instant answers, explore 📚 topics, and engage 💬 in real-time conversations for quick insights and support. 🤝🌍
+              Harnessing AI to provide guidance, explanation about actionable solutions real-time climate insights,and predictions for a sustainable future.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Link>
+
+        {/* Landing Page Card */}
+        <Link to="/aboutus" style={{ textDecoration: "none" }}>
+          <Card border="success" className="custom-card" style={{ height: "58xvh" , width: "17rem"}}>
+            <Card.Header>About Us</Card.Header>
+            <Card.Body>
+              <img src={landingpage} alt="Landing Page" className="card-img" />
+              <Card.Text className="card-text">
+              AI-driven ocean monitoring to track plastic pollution, protect coral reefs, and safeguard marine life.
               </Card.Text>
             </Card.Body>
           </Card>
