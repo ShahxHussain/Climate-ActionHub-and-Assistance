@@ -7,6 +7,7 @@ import {Chatboty} from './ClimateAssitant/Chatbot';
 import Routing from './ClimateRefugee/Earth';
 import {Dashboard} from './ClimateActionHub/Dashboard'
 import ProfileCard from "./Aboutus/Profilecards";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 function App() {
   return (
     <>

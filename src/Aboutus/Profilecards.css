@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 /* Flex container for both cards */
 .card-container {
@@ -16,10 +11,10 @@
 }
 
 /* Card styling */
-.card {
+.profcard {
     padding: 15px;
     width: 350px;
-    background: #222;
+    background: #111410;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
@@ -28,7 +23,7 @@
 /* Cover photo section */
 .cover-photo {
     position: relative;
-    background: url("https://i.imgur.com/jxyuizJ.jpeg") no-repeat center;
+    background: url("./cover.png") no-repeat center;
     background-size: cover;
     height: 180px;
     border-radius: 5px 5px 0 0;
@@ -38,6 +33,7 @@
 .profile {
     position: absolute;
     width: 120px;
+    height: 130px;
     bottom: -60px;
     left: 15px;
     border-radius: 50%;
@@ -97,17 +93,19 @@
 .icons i {
     cursor: pointer;
     padding: 5px;
-    font-size: 18px;
+    font-size: 24px; /* Increased size */
     transition: 0.2s;
+    color: white; /* Set default color to white */
 }
 
 .icons i:hover {
-    color: #7ce3ff;
+    color: #7ce3ff; /* Light blue hover effect */
 }
+
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .card-container {
+    .profcard-container {
         flex-direction: column; /* Stack cards vertically on smaller screens */
         align-items: center;
     }
@@ -122,3 +120,27 @@
         transform: translateX(-50%);
     }
 }
+.about-container {
+    background-color: #e0f2e9; /* Light green background */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+    height: 100vh;
+}
+
+.about-heading {
+    font-size: 28px;
+    color: #1b5e20; /* Deep green */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-text {
+    font-size: 18px;
+    color: #2e7d32; /* Slightly lighter green */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
