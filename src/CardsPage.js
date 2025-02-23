@@ -8,7 +8,6 @@ import climateactionhub from "./Assets/Images/climateactionhub.png";
 import coralref from "./Assets/Images/coralreef.png";
 
 export function CardsPage() {
-  
 
   return (
     <div className="cards-page-container">
@@ -16,7 +15,7 @@ export function CardsPage() {
       <Link to="/" className="back-button1">← Back</Link>
 
 
-      <h1>Who Are You.....?</h1>
+      <h1>Select a card to make a difference...</h1>
       <div className="cards-container">
         
 
@@ -75,11 +74,11 @@ export function CardsPage() {
         {/* Landing Page Card */}
         <Link to="/aboutus" style={{ textDecoration: "none" }}>
           <Card border="success" className="custom-card" style={{ height: "58vh" , width: "17rem"}}>
-            <Card.Header>About Us</Card.Header>
+            <Card.Header>About Us - The innovators behind Climate Nexus.</Card.Header>
             <Card.Body>
               <img src={landingpage} alt="Landing Page" className="card-img" />
               <Card.Text className="card-text">
-              AI-driven ocean monitoring to track plastic pollution, protect coral reefs, and safeguard marine life.
+              Climate Nexus is a project developed for the Climate Change Maker Challenge 2025, organized by The OATHE Project and the Youth Image Challenge.
               </Card.Text>
             </Card.Body>
           </Card>
