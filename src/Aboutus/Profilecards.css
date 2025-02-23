@@ -1,146 +1,178 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
+.about-container {
+    background-color: #e0f2e9; /* Light green background */
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+    min-height: 100vh;
+    animation: fadeIn 1.5s ease-in-out;
+}
 
-/* Flex container for both cards */
+/* Heading Animation */
+.about-heading {
+    font-size: 48px;
+    color: #1b5e20;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+/* Text Animation */
+.about-text {
+    font-size: 22px;
+    color: #2e7d32;
+    line-height: 1.8;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease-in-out forwards;
+}
+
+/* Profile Cards Container */
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between cards */
-    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 30px;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
-/* Card styling */
+/* Enlarged Profile Card */
 .profcard {
-    padding: 15px;
-    width: 350px;
+    padding: 20px;
+    width: 450px; /* Increased width */
     background: #111410;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transform: scale(0.8);
+    animation: zoomIn 1s ease-in-out forwards;
 }
 
-/* Cover photo section */
+/* Cover photo */
 .cover-photo {
     position: relative;
     background: url("./cover.png") no-repeat center;
     background-size: cover;
-    height: 180px;
-    border-radius: 5px 5px 0 0;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
 }
 
-/* Profile image */
+/* Profile Image */
 .profile {
     position: absolute;
-    width: 120px;
-    height: 130px;
-    bottom: -60px;
-    left: 15px;
+    width: 140px;
+    height: 140px;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 50%;
-    border: 2px solid #222;
+    border: 3px solid #222;
     background: #222;
-    padding: 5px;
+    padding: 6px;
 }
 
-/* Profile name styling */
+/* Enlarged Profile Name */
 .profile-name {
-    font-size: 20px;
-    margin: 25px 0 0 120px;
+    font-size: 24px;
+    margin: 90px 0 0;
     color: #fff;
+    font-weight: bold;
 }
 
-/* About section */
+/* Profile About */
 .about {
-    margin-top: 30px;
+    margin-top: 35px;
+    font-size: 18px;
     line-height: 1.6;
     color: white;
 }
 
-/* Button styles */
-.btn {
-    margin: 30px 15px;
-    background: #7ce3ff;
-    padding: 10px 25px;
-    border-radius: 3px;
-    border: 1px solid #7ce3ff;
-    font-weight: bold;
-    cursor: pointer;
-    color: #222;
-    transition: 0.2s;
-}
-
-.btn:last-of-type {
-    background: transparent;
-    border-color: #7ce3ff;
-    color: #7ce3ff;
-}
-
-.btn:hover {
-    background: #7ce3ff;
-    color: #222;
-}
-
-/* Social media icons */
+/* Social Media Icons */
 .icons {
-    width: 180px;
-    margin: 0 auto 10px;
+    width: 200px;
+    margin: 20px auto 10px;
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    color: rgb(255, 255, 255);
 }
 
 .icons i {
     cursor: pointer;
-    padding: 5px;
-    font-size: 24px; /* Increased size */
-    transition: 0.2s;
-    color: white; /* Set default color to white */
+    padding: 8px;
+    font-size: 28px;
+    transition: 0.3s;
+    color: white;
 }
 
 .icons i:hover {
-    color: #7ce3ff; /* Light blue hover effect */
+    color: #7ce3ff;
+    transform: scale(1.2);
 }
 
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
-/* Responsive adjustments */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Adjustments */
 @media screen and (max-width: 768px) {
-    .profcard-container {
-        flex-direction: column; /* Stack cards vertically on smaller screens */
+    .card-container {
+        flex-direction: column;
         align-items: center;
     }
 
     .profile-name {
-        margin-left: 0; /* Adjust name positioning */
         text-align: center;
     }
-
-    .profile {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-.about-container {
-    background-color: #e0f2e9; /* Light green background */
-    padding: 40px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
-    height: 100vh;
 }
 
-.about-heading {
-    font-size: 28px;
-    color: #1b5e20; /* Deep green */
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.about-text {
+/* Style for Pakistan Flag Icon */
+.pakistan-flag {
+    color: green; /* Make it look like a Pakistani flag */
+    margin-left: 5px;
     font-size: 18px;
-    color: #2e7d32; /* Slightly lighter green */
-    line-height: 1.6;
-    margin-bottom: 10px;
 }
-
