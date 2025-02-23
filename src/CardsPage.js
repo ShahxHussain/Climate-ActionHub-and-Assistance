@@ -24,6 +24,7 @@ export function CardsPage() {
                 </Card>
 
                 {/* Climate Action Hub Center Card */}
+                <Link to='/dashboard'  style={{textDecoration:'none'}}>
                 <Card border="danger" className="custom-card">
                     <Card.Header>Climate Action Hub Center</Card.Header>
                     <Card.Body>
@@ -33,9 +34,9 @@ export function CardsPage() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-
+                </Link>
                 {/* Climate Refugee Card */}
-                <Link to='/climaterefuge'>
+                <Link to='/climaterefuge'  style={{textDecoration:'none'}}>
                 <Card border="warning" className="custom-card">
                     <Card.Header>Climate Refugee</Card.Header>
                     <Card.Body>

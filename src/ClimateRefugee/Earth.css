@@ -131,3 +131,25 @@ button.show-all-data-btn {
 }
 
 
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;  /* Set width and height for a round button */
+  height: 80px;
+  background-image: url('./discord.jpg'); /* Replace with the actual image path */
+  background-size: cover;  /* Ensure image fits well */
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 50%; /* Makes it round */
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.floating-button:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2); /* Lighten the button slightly on hover */
+}
+

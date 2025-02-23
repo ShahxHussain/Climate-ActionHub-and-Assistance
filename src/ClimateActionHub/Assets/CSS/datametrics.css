@@ -1,0 +1,62 @@
+.data-metrics-container {
+    padding: 50px;
+    padding-left: 160px;
+    background-color: #f4f9f4;
+    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data-metrics-image {
+    width: 100%;
+    height: 600px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.data-section {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.data-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.data-title {
+    font-size: 2.2rem;
+    color: #27ae60;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.data-text {
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .data-metrics-container {
+        padding: 20px;
+    }
+
+    .data-title {
+        font-size: 1.8rem;
+    }
+
+    .data-text {
+        font-size: 1rem;
+    }
+
+    .data-metrics-image {
+        height: 400px;
+    }
+}
