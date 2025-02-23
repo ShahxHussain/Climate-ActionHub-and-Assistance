@@ -34,6 +34,14 @@ export function ClimatechangeandSociety() {
                     helping policymakers develop proactive solutions to mitigate displacement and enhance resilience. Understanding these trends 
                     is crucial for shaping sustainable strategies that address the social and economic consequences of climate change.
                 </p>
+                <a
+          href="http://www.globalpolicy.science/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             <div className="climate-section">
@@ -48,6 +56,14 @@ export function ClimatechangeandSociety() {
                     can make informed decisions while preserving their way of life. As climate change accelerates the loss of stable sea ice, 
                     SmartICE plays a vital role in enhancing resilience and safety for Arctic communities.
                 </p>
+                <a
+          href="https://smartice.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div> 
 
             <div className="climate-section">
@@ -62,6 +78,14 @@ export function ClimatechangeandSociety() {
                     alpine biodiversity is preserved. As climate change continues to alter high-altitude environments, CREA Mont-Blanc’s research 
                     and technology-driven approach play a crucial role in understanding and mitigating its effects on mountain landscapes.
                 </p>
+                <a
+          href="https://creamontblanc.org/fr/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );

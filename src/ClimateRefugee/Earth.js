@@ -206,7 +206,8 @@ const AppRoutes = () => {
         </Modal.Footer>
       </Modal>
       <div className="floating-container">
-  <span className="floating-text">Join Now ↓</span>
+  <span className="floating-text">Join Now </span>
+  <h2>↓</h2>
   <Button className="floating-button"></Button>
 </div>
 

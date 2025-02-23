@@ -7,9 +7,29 @@
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s;
     animation: flipIn 1s ease-out;
-    height: 55vh;
+
 }
 
+.back-button1 {
+    position: absolute;
+    border-radius: 5px;
+    font-weight: bold;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: rgb(102, 124, 102);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.back-button1:hover {
+    background-color: darkgreen;
+}
 
 
 .custom-card:hover {

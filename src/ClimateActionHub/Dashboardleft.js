@@ -5,7 +5,7 @@ import "./Assets/CSS/Dashboardleft.css";
 export function Dashboardleft() {
 
     return (
-        <aside className="sidebar">
+        <aside className="sidebar1">
             {/* Back Button */}
             <Link to='/selectoptions' style={{textDecoration:'none'}}>
             <button className="back-button" >

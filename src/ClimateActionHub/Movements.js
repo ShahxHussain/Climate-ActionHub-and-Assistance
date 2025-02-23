@@ -23,6 +23,14 @@ export function Movements() {
                     <li><strong>Act Now</strong> – Take urgent steps to reduce carbon emissions and halt biodiversity loss.</li>
                     <li><strong>Beyond Politics</strong> – Create a Citizens’ Assembly to guide climate policies.</li>
                 </ul>
+                <a
+          href="https://extinctionrebellion.uk/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
 
             {/* Fridays for Future Section */}
@@ -37,6 +45,14 @@ export function Movements() {
                 <p>
                     Beyond street protests, the movement engages in various initiatives, including educational campaigns, political lobbying, and collaborations with environmental organizations, aiming to hold policymakers accountable and promote systemic change.
                 </p>
+                <a
+          href="https://fridaysforfuture.github.io/fridaysforfuture.org/"
+          className="learn-more-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn More
+        </a>
             </div>
         </div>
     );
