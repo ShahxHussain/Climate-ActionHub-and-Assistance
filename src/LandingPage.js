@@ -14,7 +14,7 @@ export function LandingPage() {
                 </video>
                 <div className="overlay">
                     <h1 className="main-heading"> Climate Nexus🌿</h1>
-                    <p className="slogan-text">A one-stop platform for climate action—uniting resources, awareness, assiastance, technology, activism, and policy support to protect our planet and aid climate refugees.</p>
+                    <p className="slogan-text">A one-stop platform for climate action—uniting resources, awareness, assistance, technology, activism, and policy support to protect our planet and aid climate refugees.</p>
                     <p className="slogan-text">Climate Nexus isn’t just a project—it’s a movement for change. Let’s take action together</p>
                     {/* Wrapper for span and button */}
                     <div className="cta-wrapper">

@@ -22,7 +22,7 @@ export function CardsPage() {
         {/* Climate Action Hub Center Card */}
         <Link to="/dashboard" style={{ textDecoration: "none" }}>
           <Card border="danger" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
-            <Card.Header>Climate Change Action Hub</Card.Header>
+            <Card.Header>Climate Change Action Hub - Resources Center</Card.Header>
             <Card.Body>
               <img src={climateactionhub} alt="Climate Action Hub" className="card-img" />
               <Card.Text className="card-text">
@@ -52,7 +52,7 @@ export function CardsPage() {
             <Card.Body>
               <img src={coralref} alt="Coral Reef Protection" className="card-img" style={{ height: "18vh" }} />
               <Card.Text className="card-text">
-                Safeguarding marine ecosystems through conservation, restoration, and sustainable practices to protect biodiversity and fight climate change. 🌊🐠
+                Safeguarding marine ecosystems through conservation, restoration, and sustainable practices to protect biodiversity and fight climate change.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -61,7 +61,7 @@ export function CardsPage() {
         {/* Climate Assistant Card */}
         <Link to="/climateassistant" style={{ textDecoration: "none" }}>
           <Card border="warning" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
-            <Card.Header>Climate Assistant</Card.Header>
+            <Card.Header>Climate Assistant - AI Powered chatBot</Card.Header>
             <Card.Body>
               <img src={chatbot} alt="Climate Assistant" className="card-img" />
               <Card.Text className="card-text">
@@ -73,7 +73,7 @@ export function CardsPage() {
 
         {/* Landing Page Card */}
         <Link to="/aboutus" style={{ textDecoration: "none" }}>
-          <Card border="success" className="custom-card" style={{ height: "58xvh" , width: "17rem"}}>
+          <Card border="success" className="custom-card" style={{ height: "58vh" , width: "17rem"}}>
             <Card.Header>About Us</Card.Header>
             <Card.Body>
               <img src={landingpage} alt="Landing Page" className="card-img" />

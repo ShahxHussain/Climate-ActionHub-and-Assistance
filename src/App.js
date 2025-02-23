@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {Chatboty} from './ClimateAssitant/Chatbot';
 import Routing from './ClimateRefugee/Earth';
 import {Dashboard} from './ClimateActionHub/Dashboard'
+import ProfileCard from "./Aboutus/Profilecards";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
     <Route path='/climateassistant' element={<Chatboty/>}></Route>
     <Route path='/climaterefuge' element={<Routing/>}></Route>
     <Route path='/dashboard/*' element={<Dashboard/>}></Route>
+    <Route path='/aboutus' element={<ProfileCard/>}></Route>
 
   </Routes>
     </>
