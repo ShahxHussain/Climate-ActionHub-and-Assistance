@@ -1,6 +1,6 @@
-# 🌍 Climate Nexus – A One-Stop Platform for Climate Action  
+![Climate Change Makers Challenge 2025](https://github.com/ShahxHussain/Climate-ActionHub-and-Assistance/blob/main/src/Assets/Images/full_width.png)
 
-![Hack the Future](https://github.com/ShahxHussain/VizAI_Data_Visualisation_Assistant/blob/main/Extras/Hack%20the%20future.png)
+# 🌍 Climate Nexus – A one-stop platform for climate action—uniting resources, awareness, technology, activism, and policy support to protect our planet and aid climate refugees. 
 
 ## 🌟 Inspiration  
 
