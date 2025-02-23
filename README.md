@@ -156,8 +156,8 @@ Ensure you have the following installed on your system:
 
 Clone the project repository from GitHub:  
 ```bash
-git clone https://github.com/ShahxHussain/Climate-ActionHub-and-Assistance
-cd Climate-ActionHub-and-Assistance
+git clone https://github.com/ShahxHussain/Climate-Nexus
+cd Climate-Nexus
 ```
 
 ## **Step 3: Install Dependencies**
@@ -186,7 +186,7 @@ We welcome contributions to Climate-ActionHub-and-Assistance! Whether you're fix
    - Click on the "Fork" button at the top of this page to create a copy of the repository in your own GitHub account.
 2. Clone your fork: Clone your forked repository to your local machine:
 ```
-git clone https://github.com/ShahxHussain/Climate-ActionHub-and-Assistance
+git clone https://github.com/ShahxHussain/Climate-Nexus
 ```
 4. Create a feature branch:
 ```
