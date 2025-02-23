@@ -20,7 +20,7 @@ export function CardsPage() {
       <div className="cards-container">
         {/* Landing Page Card */}
         <Link to="/aboutus" style={{ textDecoration: "none" }}>
-          <Card border="success" className="custom-card" style={{ height: "53vh" }}>
+          <Card border="success" className="custom-card" style={{ height: "53vh",width:'17rem' }}>
             <Card.Header>About Us</Card.Header>
             <Card.Body>
               <img src={landingpage} alt="Landing Page" className="card-img" />
