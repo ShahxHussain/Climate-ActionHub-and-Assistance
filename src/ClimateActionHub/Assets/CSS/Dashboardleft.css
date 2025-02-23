@@ -1,14 +1,21 @@
 
 /* Sidebar container */
 .sidebar1 {
-    background-color: #386150; /* Deep green */
- width: 100%;
- height: 1000px;
-    display: flex;
-    flex-direction: column;
-    width: 260px; /* Fixed width */
-    transition: width 0.3s ease-in-out;
+  background-color: #386150;
+  width: 16.5vw;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  position: fixed; /* Keep sidebar fixed */
+  left: 0;
+  top: 0;
+  overflow-y: auto; /* Enable scrolling inside sidebar if needed */
 }
+
+.sidebar1 ul {
+  flex-grow: 1; /* Allow list to take available space */
+}
+
 
 /* Sidebar heading */
 .sidebar1 h2 {

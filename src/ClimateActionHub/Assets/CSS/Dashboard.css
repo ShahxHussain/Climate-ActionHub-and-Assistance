@@ -1,14 +1,21 @@
-.dashboard-container {
+/* .dashboard-container {
   display: flex;
-  height: 100vh; /* Full screen height */
+  height: 100vh;
 }
 
 .sidebar-container {
-  width: 15%;  /* Sidebar takes 20% of the screen */
-  display: flex; /* Ensures it grows properly */
+  width: 15%;  
+  display: flex; 
 }
 
 .content-container {
   flex-grow: 1;
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+  overflow-x: hidden; 
+} */
+
+
+
+.dashboardmain{
+  display: flex;
+  flex-direction: row;
 }
