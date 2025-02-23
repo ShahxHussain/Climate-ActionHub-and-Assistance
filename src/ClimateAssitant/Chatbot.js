@@ -46,23 +46,33 @@ export function Chatboty() {
       <Container fluid className="chatbot-container">
         <h1 className="text-center my-4">What do you want to search?</h1>
 
-        {/* Climate-related Cards */}
-        <Row className="justify-content-center align-items-center mt-5 g-5">
-          {[
-            { title: "Climate Change", text: "Learn about global warming and its impact.", variant: "success" },
-            { title: "Deforestation", text: "Find out how tree loss affects the environment.", variant: "danger" },
-            { title: "Carbon Footprint", text: "Ways to reduce your carbon emissions.", variant: "warning" },
-          ].map((item, index) => (
-            <Col xs={12} sm={6} md={4} key={index} className="d-flex justify-content-center">
-              <Card bg={item.variant} text="white" className="shadow card-custom">
-                <Card.Header>{item.title}</Card.Header>
-                <Card.Body>
-                  <Card.Text>{item.text}</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
+        {/* Cards Row */}
+        <Row className="justify-content-center mt-4 g-2">
+  {[
+    { 
+      title: "Climate Change", 
+      text: "Explore the causes, effects, and solutions to global warming. Learn how climate change is impacting ecosystems, weather patterns, and human lives." 
+    },
+    { 
+      title: "Deforestation", 
+      text: "Understand the consequences of deforestation on biodiversity, air quality, and climate. Discover sustainable solutions to protect our forests." 
+    },
+    { 
+      title: "Carbon Footprint", 
+      text: "Find out how daily activities contribute to carbon emissions and discover practical ways to reduce your environmental impact for a greener planet." 
+    }
+  ].map((item, index) => (
+    <Col xs={12} sm={6} md={4} key={index} className="d-flex justify-content-center">
+      <Card border="success" className="custom-card">
+        <Card.Header className="card-header">{item.title}</Card.Header>
+        <Card.Body>
+          <Card.Text className="card-text">{item.text}</Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+  ))}
+</Row>
+
 
         {/* Chatbox */}
         <div ref={chatBoxRef} className="chat-box mt-4 mx-auto">

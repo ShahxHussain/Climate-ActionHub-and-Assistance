@@ -1,12 +1,4 @@
-/* Container for Chatbot */
-.chatbot-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-/* Chat Box: fixed height and scrollable */
+/* Chat Box */
 .chat-box {
   width: 100%;
   max-width: 600px;
@@ -29,7 +21,7 @@
   font-size: 15px;
 }
 
-/* User messages: right aligned */
+/* User messages */
 .user {
   align-self: flex-end;
   background-color: #007bff;
@@ -37,7 +29,7 @@
   text-align: right;
 }
 
-/* Bot messages: left aligned */
+/* Bot messages */
 .bot {
   align-self: flex-start;
   background-color: #e9ecef;
@@ -72,8 +64,54 @@
   justify-content: center;
 }
 
+/* Cards */
+/* Reduce space between cards */
+.custom-card {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 5px; /* Reduced from default Bootstrap margin */
+}
+
+
+.card-header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
 /* Responsive Adjustments */
+@media (max-width: 992px) {
+  .custom-card {
+    max-width: 250px;
+  }
+}
+
 @media (max-width: 768px) {
+  .sidebar {
+    width: 60px; /* Smaller sidebar on small screens */
+  }
+
+  .chatbot-container {
+    width: calc(100% - 60px);
+    margin-left: 60px;
+  }
+
+  .vertical-text {
+    font-size: 16px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  .leaf-icon {
+    font-size: 24px;
+  }
+
   .chat-box {
     height: 300px;
   }
@@ -90,10 +128,8 @@
   .send-button {
     width: 100%;
   }
-}
 
-/* Center Cards More */
-.card-custom {
-  width: 18rem;
-  text-align:center
+  .custom-card {
+    max-width: 100%;
+  }
 }

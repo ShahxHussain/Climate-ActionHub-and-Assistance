@@ -17,7 +17,6 @@ function App() {
     <Route path='/climaterefuge' element={<Routing/>}></Route>
     <Route path='/dashboard/*' element={<Dashboard/>}></Route>
 
-
   </Routes>
     </>
   );

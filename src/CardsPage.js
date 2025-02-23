@@ -14,7 +14,7 @@ export function CardsPage() {
 
                 {/* Landing Page Card */}
                 <Card border="success" className="custom-card">
-                    <Card.Header>Landing Page</Card.Header>
+                    <Card.Header>About Us</Card.Header>
                     <Card.Body>
                         <img src={landingpage} alt="Landing Page" className="card-img" />
                         <Card.Text className="card-text">

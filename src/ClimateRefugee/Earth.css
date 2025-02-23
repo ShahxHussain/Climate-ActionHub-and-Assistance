@@ -137,7 +137,7 @@ button.show-all-data-btn {
   right: 20px;
   width: 80px;  /* Set width and height for a round button */
   height: 80px;
-  background-image: url('./discord.jpg'); /* Replace with the actual image path */
+  background-image: url('./discord.png'); /* Replace with the actual image path */
   background-size: cover;  /* Ensure image fits well */
   background-position: center;
   background-repeat: no-repeat;

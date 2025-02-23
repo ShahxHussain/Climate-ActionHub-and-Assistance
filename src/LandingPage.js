@@ -13,9 +13,9 @@ export function LandingPage() {
                     Your browser does not support the video tag.
                 </video>
                 <div className="overlay">
-                    <h1 className="main-heading">🌍 Climate Action Hub & Climate Assistant 🌿</h1>
-                    <p className="slogan-text">One-stop platform for climate change awareness, resources, and donations</p>
-                    
+                    <h1 className="main-heading"> Climate Action Hub & Climate Assistance🌿</h1>
+                    <p className="slogan-text">A one-stop platform for climate action—uniting resources, awareness, technology, activism, and policy support to protect our planet and aid climate refugees.</p>
+                    <p className="slogan-text">Climate Nexus isn’t just a project—it’s a movement for change. Let’s take action together</p>
                     {/* Wrapper for span and button */}
                     <div className="cta-wrapper">
                         <span className="climate-span">Want to be a Climate Change Maker?</span>
