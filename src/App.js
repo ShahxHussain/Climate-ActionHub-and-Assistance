@@ -8,6 +8,7 @@ import Routing from './ClimateRefugee/Earth';
 import {Dashboard} from './ClimateActionHub/Dashboard'
 import ProfileCard from "./Aboutus/Profilecards";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import DeepSea from "./DeepSeekandAquaBodies/DeepSea";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
     <Route path='/climaterefuge' element={<Routing/>}></Route>
     <Route path='/dashboard/*' element={<Dashboard/>}></Route>
     <Route path='/aboutus' element={<ProfileCard/>}></Route>
+    <Route path='/deepseaandaquabodies' element={<DeepSea/>}></Route>
 
   </Routes>
     </>

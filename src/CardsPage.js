@@ -45,7 +45,7 @@ export function CardsPage() {
         </Link>
 
         {/* Coral Reef Protection Card */}
-        <Link to="/coralreedandaquabodies" style={{ textDecoration: "none" }}>
+        <Link to="/deepseaandaquabodies" style={{ textDecoration: "none" }}>
           <Card border="warning" className="custom-card" style={{ height: "58vh", width: "17rem" }}>
             <Card.Header>Deep-Sea Plastic Detection & AquaLIfe Protection</Card.Header>
             <Card.Body>
