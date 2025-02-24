@@ -17,19 +17,25 @@ const ProfileCard = () => {
           {/* First Profile Card */}
           <div className="profcard">
             <div className="cover-photo">
-              <img src={shah} alt="profile" className="profile" />
+            <img src={shah} alt="profile" className="profile" />
             </div>
-            <h3 className="profile-name">
-              SYED SHAH HUSSAIN BADSHAH <i className="fa-solid fa-flag pakistan-flag"></i>
-            </h3>
+            <h3 className="profile-name">SYED SHAH HUSSAIN BADSHAH </h3>
             <p className="about">
               Final Year Software Engineering Student at COMSATS University, Abbottabad Campus <br />
             </p>
             <div className="icons">
-              <a href="https://www.linkedin.com/in/shahxhussain/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/shahxhussain/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://github.com/ShahxHussain" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/ShahxHussain"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -40,17 +46,23 @@ const ProfileCard = () => {
             <div className="cover-photo">
               <img src={atif} alt="profile" className="profile" />
             </div>
-            <h3 className="profile-name">
-              SYED ATIF SHAH <i className="fa-solid fa-flag pakistan-flag"></i>
-            </h3>
+            <h3 className="profile-name">SYED ATIF SHAH</h3>
             <p className="about">
               Final Year Computer Science Student at COMSATS University, Abbottabad Campus <br />
             </p>
             <div className="icons">
-              <a href="https://www.linkedin.com/in/aatif-shah-648bb7230/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/aatif-shah-648bb7230/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://github.com/ATIFSHAH159" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/ATIFSHAH159"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
