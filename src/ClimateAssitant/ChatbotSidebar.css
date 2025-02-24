@@ -33,3 +33,15 @@
   padding: 20px;
   transition: all 0.3s ease-in-out;
 }
+.api-link {
+  color: #00ff99; /* Green color for eco theme */
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+.api-link:hover {
+  text-decoration: underline;
+  color: #00cc77;
+}
